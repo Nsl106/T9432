@@ -1,7 +1,3 @@
 sources:
-  - Rubik.glyphs
-  - Rubik-Italic.glyphs
-axisOrder:
-  - wght
-  - ital
-familyName: Rubik
+  - T9432-Regular.ofl
+familyName: T9432
