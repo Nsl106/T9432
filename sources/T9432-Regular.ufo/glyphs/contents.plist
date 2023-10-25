@@ -276,8 +276,8 @@
     <string>reversed_semicolon.glif</string>
     <key>two_asterisks_aligned_vertically</key>
     <string>two_asterisks_aligned_vertically.glif</string>
-    <key>not_ _to</key>
-    <string>not_ _to.glif</string>
+    <key>not_equal_to</key>
+    <string>not_equal_to.glif</string>
     <key>minus_sign</key>
     <string>minus_sign.glif</string>
     <key>minus_or_plus_sign</key>
