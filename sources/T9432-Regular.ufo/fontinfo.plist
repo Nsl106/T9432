@@ -5,7 +5,7 @@
     <key>familyName</key>
     <string>T9432</string>
     <key>styleName</key>
-    <string>Book</string>
+    <string>Regular</string>
     <key>styleMapFamilyName</key>
     <string>T9432</string>
     <key>versionMajor</key>
@@ -118,7 +118,7 @@
     <key>postscriptFullName</key>
     <string>T9432</string>
     <key>postscriptWeightName</key>
-    <string>Book</string>
+    <string>Regular</string>
     <key>postscriptUnderlineThickness</key>
     <integer>67</integer>
     <key>postscriptUnderlinePosition</key>
