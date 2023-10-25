@@ -2,12 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>.notdef</key>
-    <string>_notdef.glif</string>
-    <key>.null</key>
-    <string>_null.glif</string>
-    <key>nonmarkingreturn</key>
-    <string>nonmarkingreturn.glif</string>
     <key>space</key>
     <string>space.glif</string>
     <key>exclamation_mark</key>
@@ -18,6 +12,16 @@
     <string>number_sign.glif</string>
     <key>dollar_sign</key>
     <string>dollar_sign.glif</string>
+    <key>euro_sign</key>
+    <string>euro_sign.glif</string>
+    <key>pound_sign</key>
+    <string>pound_sign.glif</string>
+    <key>yen_sign</key>
+    <string>yen_sign.glif</string>
+    <key>copyright_sign</key>
+    <string>copyright_sign.glif</string>
+    <key>®</key>
+    <string>__.glif</string>
     <key>percent_sign</key>
     <string>percent_sign.glif</string>
     <key>ampersand</key>
@@ -204,24 +208,28 @@
     <string>inverted_exclamation_mark.glif</string>
     <key>cent_sign</key>
     <string>cent_sign.glif</string>
-    <key>pound_sign</key>
-    <string>pound_sign.glif</string>
-    <key>yen_sign</key>
-    <string>yen_sign.glif</string>
     <key>broken_bar</key>
     <string>broken_bar.glif</string>
     <key>diaeresis</key>
     <string>diaeresis.glif</string>
-    <key>copyright_sign</key>
-    <string>copyright_sign.glif</string>
     <key>left_pointing_double_angle_quotation_mark</key>
     <string>left_pointing_double_angle_quotation_mark.glif</string>
-    <key>®</key>
-    <string>__.glif</string>
     <key>degree_sign</key>
     <string>degree_sign.glif</string>
     <key>plus_minus_sign</key>
     <string>plus_minus_sign.glif</string>
+    <key>en_dash</key>
+    <string>en_dash.glif</string>
+    <key>em_dash</key>
+    <string>em_dash.glif</string>
+    <key>left_single_quotation_mark</key>
+    <string>left_single_quotation_mark.glif</string>
+    <key>right_single_quotation_mark</key>
+    <string>right_single_quotation_mark.glif</string>
+    <key>left_double_quotation_mark</key>
+    <string>left_double_quotation_mark.glif</string>
+    <key>right_double_quotation_mark</key>
+    <string>right_double_quotation_mark.glif</string>
     <key>acute_accent</key>
     <string>acute_accent.glif</string>
     <key>middle_dot</key>
@@ -230,6 +238,54 @@
     <string>right_pointing_double_angle_quotation_mark.glif</string>
     <key>inverted_question_mark</key>
     <string>inverted_question_mark.glif</string>
+    <key>multiplication_sign</key>
+    <string>multiplication_sign.glif</string>
+    <key>division_sign</key>
+    <string>division_sign.glif</string>
+    <key>leftwards_arrow</key>
+    <string>leftwards_arrow.glif</string>
+    <key>upwards_arrow</key>
+    <string>upwards_arrow.glif</string>
+    <key>rightwards_arrow</key>
+    <string>rightwards_arrow.glif</string>
+    <key>downwards_arrow</key>
+    <string>downwards_arrow.glif</string>
+    <key>smiling_face</key>
+    <string>smiling_face.glif</string>
+    <key>horizontal_ellipsis</key>
+    <string>horizontal_ellipsis.glif</string>
+    <key>dagger</key>
+    <string>dagger.glif</string>
+    <key>double_dagger</key>
+    <string>double_dagger.glif</string>
+    <key>bullet</key>
+    <string>bullet.glif</string>
+    <key>single_left_pointing_angle_quotation_mark</key>
+    <string>single_left_pointing_angle_quotation_mark.glif</string>
+    <key>single_right_pointing_angle_quotation_mark</key>
+    <string>single_right_pointing_angle_quotation_mark.glif</string>
+    <key>double_exclamation_mark</key>
+    <string>double_exclamation_mark.glif</string>
+    <key>question_exclamation_mark</key>
+    <string>question_exclamation_mark.glif</string>
+    <key>exclamation_question_mark</key>
+    <string>exclamation_question_mark.glif</string>
+    <key>low_asterisk</key>
+    <string>low_asterisk.glif</string>
+    <key>reversed_semicolon</key>
+    <string>reversed_semicolon.glif</string>
+    <key>two_asterisks_aligned_vertically</key>
+    <string>two_asterisks_aligned_vertically.glif</string>
+    <key>not_ _to</key>
+    <string>not_ _to.glif</string>
+    <key>minus_sign</key>
+    <string>minus_sign.glif</string>
+    <key>minus_or_plus_sign</key>
+    <string>minus_or_plus_sign.glif</string>
+    <key>infinity</key>
+    <string>infinity.glif</string>
+    <key>trade_mark_sign</key>
+    <string>trade_mark_sign.glif</string>
     <key>latin_capital_letter_a_with_grave</key>
     <string>latin_capital_letter_a_with_grave.glif</string>
     <key>latin_capital_letter_a_with_acute</key>
@@ -270,8 +326,6 @@
     <string>latin_capital_letter_o_with_tilde.glif</string>
     <key>latin_capital_letter_o_with_diaeresis</key>
     <string>latin_capital_letter_o_with_diaeresis.glif</string>
-    <key>multiplication_sign</key>
-    <string>multiplication_sign.glif</string>
     <key>latin_capital_letter_u_with_grave</key>
     <string>latin_capital_letter_u_with_grave.glif</string>
     <key>latin_capital_letter_u_with_acute</key>
@@ -322,8 +376,6 @@
     <string>latin_small_letter_o_with_tilde.glif</string>
     <key>latin_small_letter_o_with_diaeresis</key>
     <string>latin_small_letter_o_with_diaeresis.glif</string>
-    <key>division_sign</key>
-    <string>division_sign.glif</string>
     <key>latin_small_letter_u_with_grave</key>
     <string>latin_small_letter_u_with_grave.glif</string>
     <key>latin_small_letter_u_with_acute</key>
@@ -672,64 +724,6 @@
     <string>latin_capital_letter_y_with_tilde.glif</string>
     <key>latin_small_letter_y_with_tilde</key>
     <string>latin_small_letter_y_with_tilde.glif</string>
-    <key>en_dash</key>
-    <string>en_dash.glif</string>
-    <key>em_dash</key>
-    <string>em_dash.glif</string>
-    <key>left_single_quotation_mark</key>
-    <string>left_single_quotation_mark.glif</string>
-    <key>right_single_quotation_mark</key>
-    <string>right_single_quotation_mark.glif</string>
-    <key>left_double_quotation_mark</key>
-    <string>left_double_quotation_mark.glif</string>
-    <key>right_double_quotation_mark</key>
-    <string>right_double_quotation_mark.glif</string>
-    <key>dagger</key>
-    <string>dagger.glif</string>
-    <key>double_dagger</key>
-    <string>double_dagger.glif</string>
-    <key>bullet</key>
-    <string>bullet.glif</string>
-    <key>horizontal_ellipsis</key>
-    <string>horizontal_ellipsis.glif</string>
-    <key>single_left_pointing_angle_quotation_mark</key>
-    <string>single_left_pointing_angle_quotation_mark.glif</string>
-    <key>single_right_pointing_angle_quotation_mark</key>
-    <string>single_right_pointing_angle_quotation_mark.glif</string>
-    <key>double_exclamation_mark</key>
-    <string>double_exclamation_mark.glif</string>
-    <key>question_exclamation_mark</key>
-    <string>question_exclamation_mark.glif</string>
-    <key>exclamation_question_mark</key>
-    <string>exclamation_question_mark.glif</string>
-    <key>low_asterisk</key>
-    <string>low_asterisk.glif</string>
-    <key>reversed_semicolon</key>
-    <string>reversed_semicolon.glif</string>
-    <key>two_asterisks_aligned_vertically</key>
-    <string>two_asterisks_aligned_vertically.glif</string>
-    <key>euro_sign</key>
-    <string>euro_sign.glif</string>
-    <key>trade_mark_sign</key>
-    <string>trade_mark_sign.glif</string>
-    <key>leftwards_arrow</key>
-    <string>leftwards_arrow.glif</string>
-    <key>upwards_arrow</key>
-    <string>upwards_arrow.glif</string>
-    <key>rightwards_arrow</key>
-    <string>rightwards_arrow.glif</string>
-    <key>downwards_arrow</key>
-    <string>downwards_arrow.glif</string>
-    <key>minus_sign</key>
-    <string>minus_sign.glif</string>
-    <key>minus_or_plus_sign</key>
-    <string>minus_or_plus_sign.glif</string>
-    <key>infinity</key>
-    <string>infinity.glif</string>
-    <key>not_ _to</key>
-    <string>not_ _to.glif</string>
-    <key>smiling_face</key>
-    <string>smiling_face.glif</string>
     <key>multiplication_sign_with_dot_above</key>
     <string>multiplication_sign_with_dot_above.glif</string>
     <key>hyphen_with_diaeresis</key>

@@ -13,21 +13,19 @@
     <key>versionMinor</key>
     <integer>0</integer>
     <key>copyright</key>
-    <string>Copyright 2023 Nolan Locke, https://github.com/Nsl106/T9432</string>
+    <string>Copyright 2023 The T9432 Project Authors (https://github.com/Nsl106/T9432)</string>
     <key>unitsPerEm</key>
     <integer>1350</integer>
-    <key>capHeight</key>
-    <integer>750</integer>
-    <key>xHeight</key>
-    <integer>450</integer>
     <key>ascender</key>
     <integer>1050</integer>
     <key>descender</key>
     <integer>-300</integer>
     <key>italicAngle</key>
     <real>0</real>
+    <key>note</key>
+    <string>2023-10-25: Created with FontForge (http://fontforge.org)</string>
     <key>openTypeHeadCreated</key>
-    <string>2023/10/25 06:08:08</string>
+    <string>2023/10/25 19:23:17</string>
     <key>openTypeHheaAscender</key>
     <integer>1200</integer>
     <key>openTypeHheaDescender</key>
@@ -36,8 +34,6 @@
     <integer>0</integer>
     <key>openTypeNameVersion</key>
     <string>Version 1.000</string>
-    <key>openTypeNameUniqueID</key>
-    <string>FontForge 2.0 : T9432 : 25-10-2023</string>
     <key>openTypeOS2Panose</key>
     <array>
       <integer>2</integer>
@@ -94,25 +90,8 @@
     <integer>67</integer>
     <key>openTypeOS2StrikeoutPosition</key>
     <integer>349</integer>
-    <key>openTypeOS2UnicodeRanges</key>
-    <array>
-      <integer>0</integer>
-      <integer>1</integer>
-      <integer>2</integer>
-      <integer>3</integer>
-      <integer>29</integer>
-      <integer>31</integer>
-      <integer>33</integer>
-      <integer>35</integer>
-      <integer>37</integer>
-      <integer>38</integer>
-      <integer>46</integer>
-    </array>
-    <key>openTypeOS2CodePageRanges</key>
-    <array>
-      <integer>1</integer>
-      <integer>4</integer>
-    </array>
+    <key>openTypeVheaTypoLineGap</key>
+    <integer>121</integer>
     <key>postscriptFontName</key>
     <string>T9432</string>
     <key>postscriptFullName</key>
@@ -122,7 +101,7 @@
     <key>postscriptUnderlineThickness</key>
     <integer>67</integer>
     <key>postscriptUnderlinePosition</key>
-    <integer>-149</integer>
+    <integer>-150</integer>
     <key>guidelines</key>
     <array/>
   </dict>

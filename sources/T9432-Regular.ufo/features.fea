@@ -1,1 +1,184 @@
 
+
+@GDEF_Simple = [\space \exclamation_mark \quotation_mark \number_sign 
+	\dollar_sign \euro_sign \pound_sign \yen_sign \copyright_sign \® 
+	\percent_sign \ampersand \single_quote \left_parenthesis \right_parenthesis 
+	\asterisk \plus_sign \comma \hyphen \period \slash \zero \one \two \three \four 
+	\five \six \seven \eight \nine \colon \semicolon \less \equal \greater \question 
+	\at \latin_capital_letter_a \latin_capital_letter_b \latin_capital_letter_c 
+	\latin_capital_letter_d \latin_capital_letter_e \latin_capital_letter_f 
+	\latin_capital_letter_g \latin_capital_letter_h \latin_capital_letter_i 
+	\latin_capital_letter_j \latin_capital_letter_k \latin_capital_letter_l 
+	\latin_capital_letter_m \latin_capital_letter_n \latin_capital_letter_o 
+	\latin_capital_letter_p \latin_capital_letter_q \latin_capital_letter_r 
+	\latin_capital_letter_s \latin_capital_letter_t \latin_capital_letter_u 
+	\latin_capital_letter_v \latin_capital_letter_w \latin_capital_letter_x 
+	\latin_capital_letter_y \latin_capital_letter_z \left_square_bracket 
+	\backslash \right_square_bracket \ascii_caret \underscore \grave_accent 
+	\latin_small_letter_a \latin_small_letter_b \latin_small_letter_c 
+	\latin_small_letter_d \latin_small_letter_e \latin_small_letter_f 
+	\latin_small_letter_g \latin_small_letter_h \latin_small_letter_i 
+	\latin_small_letter_j \latin_small_letter_k \latin_small_letter_l 
+	\latin_small_letter_m \latin_small_letter_n \latin_small_letter_o 
+	\latin_small_letter_p \latin_small_letter_q \latin_small_letter_r 
+	\latin_small_letter_s \latin_small_letter_t \latin_small_letter_u 
+	\latin_small_letter_v \latin_small_letter_w \latin_small_letter_x 
+	\latin_small_letter_y \latin_small_letter_z \left_curly_brace \vertical_bar 
+	\right_curly_brace \ascii_tilde \no-break_space \inverted_exclamation_mark 
+	\cent_sign \broken_bar \diaeresis 
+	\left_pointing_double_angle_quotation_mark \degree_sign \plus_minus_sign 
+	\en_dash \em_dash \left_single_quotation_mark \right_single_quotation_mark 
+	\left_double_quotation_mark \right_double_quotation_mark \acute_accent 
+	\middle_dot \right_pointing_double_angle_quotation_mark 
+	\inverted_question_mark \multiplication_sign \division_sign 
+	\leftwards_arrow \upwards_arrow \rightwards_arrow \downwards_arrow 
+	\smiling_face \horizontal_ellipsis \dagger \double_dagger \bullet 
+	\single_left_pointing_angle_quotation_mark 
+	\single_right_pointing_angle_quotation_mark \double_exclamation_mark 
+	\question_exclamation_mark \exclamation_question_mark \low_asterisk 
+	\reversed_semicolon \two_asterisks_aligned_vertically \not_ _to \minus_sign 
+	\minus_or_plus_sign \infinity \trade_mark_sign 
+	\latin_capital_letter_a_with_grave \latin_capital_letter_a_with_acute 
+	\latin_capital_letter_a_with_circumflex 
+	\latin_capital_letter_a_with_tilde \latin_capital_letter_a_with_diaeresis 
+	\latin_capital_letter_a_with_ring_above 
+	\latin_capital_letter_e_with_grave \latin_capital_letter_e_with_acute 
+	\latin_capital_letter_e_with_circumflex 
+	\latin_capital_letter_e_with_diaeresis \latin_capital_letter_i_with_grave 
+	\latin_capital_letter_i_with_acute 
+	\latin_capital_letter_i_with_circumflex 
+	\latin_capital_letter_i_with_diaeresis \latin_capital_letter_n_with_tilde 
+	\latin_capital_letter_o_with_grave \latin_capital_letter_o_with_acute 
+	\latin_capital_letter_o_with_circumflex 
+	\latin_capital_letter_o_with_tilde \latin_capital_letter_o_with_diaeresis 
+	\latin_capital_letter_u_with_grave \latin_capital_letter_u_with_acute 
+	\latin_capital_letter_u_with_circumflex 
+	\latin_capital_letter_u_with_diaeresis \latin_capital_letter_y_with_acute 
+	\latin_small_letter_a_with_grave \latin_small_letter_a_with_acute 
+	\latin_small_letter_a_with_circumflex \latin_small_letter_a_with_tilde 
+	\latin_small_letter_a_with_diaeresis 
+	\latin_small_letter_a_with_ring_above \latin_small_letter_e_with_grave 
+	\latin_small_letter_e_with_acute \latin_small_letter_e_with_circumflex 
+	\latin_small_letter_e_with_diaeresis \latin_small_letter_i_with_grave 
+	\latin_small_letter_i_with_acute \latin_small_letter_i_with_circumflex 
+	\latin_small_letter_i_with_diaeresis \latin_small_letter_n_with_tilde 
+	\latin_small_letter_o_with_grave \latin_small_letter_o_with_acute 
+	\latin_small_letter_o_with_circumflex \latin_small_letter_o_with_tilde 
+	\latin_small_letter_o_with_diaeresis \latin_small_letter_u_with_grave 
+	\latin_small_letter_u_with_acute \latin_small_letter_u_with_circumflex 
+	\latin_small_letter_u_with_diaeresis \latin_small_letter_y_with_acute 
+	\latin_small_letter_y_with_diaeresis \latin_capital_letter_a_with_macron 
+	\latin_small_letter_a_with_macron \latin_capital_letter_a_with_breve 
+	\latin_small_letter_a_with_breve \latin_capital_letter_c_with_acute 
+	\latin_small_letter_c_with_acute \latin_capital_letter_c_with_circumflex 
+	\latin_small_letter_c_with_circumflex 
+	\latin_capital_letter_c_with_dot_above 
+	\latin_small_letter_c_with_dot_above \latin_capital_letter_c_with_caron 
+	\latin_small_letter_c_with_caron \latin_capital_letter_d_with_caron 
+	\latin_small_letter_d_with_caron \latin_capital_letter_e_with_macron 
+	\latin_small_letter_e_with_macron \latin_capital_letter_e_with_breve 
+	\latin_small_letter_e_with_breve \latin_capital_letter_e_with_dot_above 
+	\latin_small_letter_e_with_dot_above \latin_capital_letter_e_with_caron 
+	\latin_small_letter_e_with_caron \latin_capital_letter_g_with_circumflex 
+	\latin_small_letter_g_with_circumflex \latin_capital_letter_g_with_breve 
+	\latin_small_letter_g_with_breve \latin_capital_letter_g_with_dot_above 
+	\latin_small_letter_g_with_dot_above 
+	\latin_capital_letter_h_with_circumflex 
+	\latin_small_letter_h_with_circumflex \latin_capital_letter_i_with_tilde 
+	\latin_small_letter_i_with_tilde \latin_capital_letter_i_with_macron 
+	\latin_small_letter_i_with_macron \latin_capital_letter_i_with_breve 
+	\latin_small_letter_i_with_breve \latin_capital_letter_i_with_dot_above 
+	\latin_capital_letter_j_with_circumflex 
+	\latin_small_letter_j_with_circumflex \latin_capital_letter_l_with_acute 
+	\latin_small_letter_l_with_acute \latin_capital_letter_l_with_caron 
+	\latin_small_letter_l_with_caron \latin_capital_letter_n_with_acute 
+	\latin_small_letter_n_with_acute \latin_capital_letter_n_with_caron 
+	\latin_small_letter_n_with_caron \latin_capital_letter_o_with_macron 
+	\latin_small_letter_o_with_macron \latin_capital_letter_o_with_breve 
+	\latin_small_letter_o_with_breve 
+	\latin_capital_letter_o_with_double_acute 
+	\latin_small_letter_o_with_double_acute 
+	\latin_capital_letter_r_with_acute \latin_small_letter_r_with_acute 
+	\latin_capital_letter_r_with_caron \latin_small_letter_r_with_caron 
+	\latin_capital_letter_s_with_acute \latin_small_letter_s_with_acute 
+	\latin_capital_letter_s_with_circumflex 
+	\latin_small_letter_s_with_circumflex \latin_capital_letter_s_with_caron 
+	\latin_small_letter_s_with_caron \latin_capital_letter_t_with_caron 
+	\latin_small_letter_t_with_caron \latin_capital_letter_u_with_tilde 
+	\latin_small_letter_u_with_tilde \latin_capital_letter_u_with_macron 
+	\latin_small_letter_u_with_macron \latin_capital_letter_u_with_breve 
+	\latin_small_letter_u_with_breve \latin_capital_letter_u_with_ring_above 
+	\latin_small_letter_u_with_ring_above 
+	\latin_capital_letter_u_with_double_acute 
+	\latin_small_letter_u_with_double_acute 
+	\latin_capital_letter_w_with_circumflex 
+	\latin_small_letter_w_with_circumflex 
+	\latin_capital_letter_y_with_circumflex 
+	\latin_small_letter_y_with_circumflex 
+	\latin_capital_letter_y_with_diaeresis \latin_capital_letter_z_with_acute 
+	\latin_small_letter_z_with_acute \latin_capital_letter_z_with_dot_above 
+	\latin_small_letter_z_with_dot_above \latin_capital_letter_z_with_caron 
+	\latin_small_letter_z_with_caron \latin_capital_letter_a_with_caron 
+	\latin_small_letter_a_with_caron \latin_capital_letter_i_with_caron 
+	\latin_small_letter_i_with_caron \latin_capital_letter_o_with_caron 
+	\latin_small_letter_o_with_caron \latin_capital_letter_u_with_caron 
+	\latin_small_letter_u_with_caron \latin_capital_letter_g_with_caron 
+	\latin_small_letter_g_with_caron \latin_capital_letter_k_with_caron 
+	\latin_small_letter_k_with_caron \latin_small_letter_j_with_caron 
+	\latin_capital_letter_g_with_acute \latin_small_letter_g_with_acute 
+	\latin_capital_letter_n_with_grave \latin_small_letter_n_with_grave 
+	\latin_capital_letter_h_with_caron \latin_small_letter_h_with_caron 
+	\latin_capital_letter_a_with_dot_above 
+	\latin_small_letter_a_with_dot_above 
+	\latin_capital_letter_o_with_dot_above 
+	\latin_small_letter_o_with_dot_above \latin_capital_letter_y_with_macron 
+	\latin_small_letter_y_with_macron \latin_capital_letter_b_with_dot_above 
+	\latin_small_letter_b_with_dot_above 
+	\latin_capital_letter_d_with_dot_above 
+	\latin_small_letter_d_with_dot_above 
+	\latin_capital_letter_f_with_dot_above 
+	\latin_small_letter_f_with_dot_above \latin_capital_letter_g_with_macron 
+	\latin_small_letter_g_with_macron \latin_capital_letter_h_with_dot_above 
+	\latin_small_letter_h_with_dot_above 
+	\latin_capital_letter_h_with_diaeresis 
+	\latin_small_letter_h_with_diaeresis \latin_capital_letter_k_with_acute 
+	\latin_small_letter_k_with_acute \latin_capital_letter_m_with_acute 
+	\latin_small_letter_m_with_acute \latin_capital_letter_m_with_dot_above 
+	\latin_small_letter_m_with_dot_above 
+	\latin_capital_letter_n_with_dot_above 
+	\latin_small_letter_n_with_dot_above \latin_capital_letter_p_with_acute 
+	\latin_small_letter_p_with_acute \latin_capital_letter_p_with_dot_above 
+	\latin_small_letter_p_with_dot_above 
+	\latin_capital_letter_r_with_dot_above 
+	\latin_small_letter_r_with_dot_above 
+	\latin_capital_letter_s_with_dot_above 
+	\latin_small_letter_s_with_dot_above 
+	\latin_capital_letter_t_with_dot_above 
+	\latin_small_letter_t_with_dot_above \latin_capital_letter_v_with_tilde 
+	\latin_small_letter_v_with_tilde \latin_capital_letter_w_with_grave 
+	\latin_small_letter_w_with_grave \latin_capital_letter_w_with_acute 
+	\latin_small_letter_w_with_acute \latin_capital_letter_w_with_diaeresis 
+	\latin_small_letter_w_with_diaeresis 
+	\latin_capital_letter_w_with_dot_above 
+	\latin_small_letter_w_with_dot_above 
+	\latin_capital_letter_x_with_dot_above 
+	\latin_small_letter_x_with_dot_above 
+	\latin_capital_letter_x_with_diaeresis 
+	\latin_small_letter_x_with_diaeresis 
+	\latin_capital_letter_y_with_dot_above 
+	\latin_small_letter_y_with_dot_above 
+	\latin_capital_letter_z_with_circumflex 
+	\latin_small_letter_z_with_circumflex 
+	\latin_small_letter_t_with_diaeresis 
+	\latin_small_letter_w_with_ring_above 
+	\latin_small_letter_y_with_ring_above \latin_capital_letter_e_with_tilde 
+	\latin_small_letter_e_with_tilde \latin_capital_letter_y_with_grave 
+	\latin_small_letter_y_with_grave \latin_capital_letter_y_with_tilde 
+	\latin_small_letter_y_with_tilde \multiplication_sign_with_dot_above 
+	\hyphen_with_diaeresis ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+
