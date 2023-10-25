@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="inverted_exclamation_mark" format="2">
+  <advance width="600"/>
+  <unicode hex="00A1"/>
+  <outline>
+    <contour>
+      <point x="300" y="450" type="line"/>
+      <point x="300" y="600" type="line"/>
+      <point x="150" y="600" type="line"/>
+      <point x="150" y="450" type="line"/>
+    </contour>
+    <contour>
+      <point x="300" y="-150" type="line"/>
+      <point x="300" y="300" type="line"/>
+      <point x="150" y="300" type="line"/>
+      <point x="150" y="-150" type="line"/>
+    </contour>
+  </outline>
+</glyph>

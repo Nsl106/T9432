@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="right_double_quotation_mark" format="2">
+  <advance width="750"/>
+  <unicode hex="201D"/>
+  <outline>
+    <contour>
+      <point x="150" y="300" type="line"/>
+      <point x="150" y="450" type="line"/>
+      <point x="300" y="450" type="line"/>
+      <point x="300" y="300" type="line"/>
+      <point x="450" y="300" type="line"/>
+      <point x="450" y="450" type="line"/>
+      <point x="600" y="450" type="line"/>
+      <point x="600" y="750" type="line"/>
+      <point x="450" y="750" type="line"/>
+      <point x="450" y="450" type="line"/>
+      <point x="300" y="450" type="line"/>
+      <point x="300" y="750" type="line"/>
+      <point x="150" y="750" type="line"/>
+      <point x="150" y="450" type="line"/>
+      <point x="0" y="450" type="line"/>
+      <point x="0" y="300" type="line"/>
+    </contour>
+  </outline>
+</glyph>
