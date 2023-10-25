@@ -252,7 +252,7 @@ fontbakery version: 0.10.2
 
 * 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
 But instead we have got:
-"Nolan Locke, https://github.com/Nsl106/T9432" [code: bad-notice-format]
+"Copyright 2023 Nolan Locke, https://github.com/Nsl106/T9432" [code: bad-notice-format]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
