@@ -1,4 +1,5 @@
 
+#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\space \exclamation_mark \quotation_mark \number_sign 
 	\dollar_sign \euro_sign \pound_sign \yen_sign \copyright_sign 
@@ -32,7 +33,7 @@
 	\middle_dot \right_pointing_double_angle_quotation_mark 
 	\inverted_question_mark \multiplication_sign \division_sign 
 	\leftwards_arrow \upwards_arrow \rightwards_arrow \downwards_arrow 
-	\smiling_face \horizontal_ellipsis \dagger \double_dagger \bullet 
+	\smiling_face \horizontal_ellipsis \dagger \bullet 
 	\single_left_pointing_angle_quotation_mark 
 	\single_right_pointing_angle_quotation_mark \double_exclamation_mark 
 	\question_exclamation_mark \exclamation_question_mark \low_asterisk 
