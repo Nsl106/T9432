@@ -9,11 +9,11 @@
     <key>styleMapFamilyName</key>
     <string>T9432</string>
     <key>versionMajor</key>
-    <integer>3</integer>
+    <integer>1</integer>
     <key>versionMinor</key>
     <integer>0</integer>
     <key>copyright</key>
-    <string>Nolan Locke, https://github.com/Nsl106/T9432</string>
+    <string>Copyright 2023 Nolan Locke, https://github.com/Nsl106/T9432</string>
     <key>unitsPerEm</key>
     <integer>1350</integer>
     <key>capHeight</key>
@@ -27,7 +27,7 @@
     <key>italicAngle</key>
     <real>0</real>
     <key>openTypeHeadCreated</key>
-    <string>2023/10/25 05:17:59</string>
+    <string>2023/10/25 05:53:54</string>
     <key>openTypeHheaAscender</key>
     <integer>1200</integer>
     <key>openTypeHheaDescender</key>
@@ -35,7 +35,7 @@
     <key>openTypeHheaLineGap</key>
     <integer>121</integer>
     <key>openTypeNameVersion</key>
-    <string>Version 3.0</string>
+    <string>Version 1.000</string>
     <key>openTypeNameUniqueID</key>
     <string>FontForge 2.0 : T9432 : 25-10-2023</string>
     <key>openTypeOS2Panose</key>
