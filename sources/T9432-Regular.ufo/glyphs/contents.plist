@@ -20,8 +20,8 @@
     <string>yen_sign.glif</string>
     <key>copyright_sign</key>
     <string>copyright_sign.glif</string>
-    <key>®</key>
-    <string>__.glif</string>
+    <key>registered_sign</key>
+    <string>registered_sign.glif</string>
     <key>percent_sign</key>
     <string>percent_sign.glif</string>
     <key>ampersand</key>
