@@ -657,8 +657,8 @@ fontbakery version: 0.10.2
  * U+2049 EXCLAMATION QUESTION MARK: try adding mongolian
  * U+204E LOW ASTERISK: not included in any glyphset definition
  * U+204F REVERSED SEMICOLON: try adding adlam
- * U+2190 LEFTWARDS ARROW: try adding one of: math, symbols
- * U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols
+ * U+2190 LEFTWARDS ARROW: try adding one of: symbols, math
+ * U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math
  * U+2213 MINUS-OR-PLUS SIGN: try adding math
  * U+221E INFINITY: try adding math
  * U+2260 NOT EQUAL TO: try adding math
