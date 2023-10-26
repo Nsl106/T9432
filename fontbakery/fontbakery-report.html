@@ -166,11 +166,11 @@ ul {
     <p>FontBakery version: 0.10.2</p>
     
 <h2>Section: Google Fonts</h2>
-<span class='section__emoji'>🔥🔥🔥⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</span>
+<span class='section__emoji'>🔥🔥🔥⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</span>
 <h3>Checking OS/2 achVendID.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/vendor_id</div>
 
-<details><summary>⚠️ T9432-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value '    ' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+<details><summary>⚠️ T9432-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value '����' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
 [code: unknown]</p>
 </span></li></ul></div></details>
 <h3>Check Google Fonts glyph coverage.</h3>
@@ -432,8 +432,8 @@ definitions.</p>
 <li>U+204E LOW ASTERISK: not included in any glyphset definition</li>
 <li>U+204F REVERSED SEMICOLON: try adding adlam</li>
 <li>U+2051 TWO ASTERISKS ALIGNED VERTICALLY: not included in any glyphset definition</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
 <li>U+2213 MINUS-OR-PLUS SIGN: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
@@ -443,15 +443,11 @@ definitions.</p>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code> [code: unreachable-subsetting]</p>
 </span></li></ul></div></details>
-<h3>License URL matches License text on name table?</h3>
-<div class='check__idlabel'>Check ID: com.google.fonts/check/name/license_url</div>
-
-<details><summary>⚠️ T9432-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]</p>
-</span></li></ul></div></details>
 <h3>Check font follows the Google Fonts vertical metric schema</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/vertical_metrics</div>
 
-<details><summary>🔥 T9432-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1500 when it should be at least 1620 [code: bad-hhea-range]</p>
+<details><summary>🔥 T9432-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>hhea.lineGap is &quot;300&quot; it should be 0 [code: bad-hhea.lineGap]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.8888888888888888x (2550) [code: bad-hhea-range]</p>
 </span></li></ul></div></details>
 <h3>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/os2/use_typo_metrics</div>
@@ -464,11 +460,11 @@ definitions.</p>
 <details><summary>⚠️ T9432-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
 <h2>Section: Universal</h2>
-<span class='section__emoji'>🔥🔥🔥⚠️⚠️⏩⏩⏩⏩⏩⏩ℹ️ℹ️</span>
+<span class='section__emoji'>🔥🔥🔥⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩ℹ️ℹ️</span>
 <h3>Checking OS/2 Metrics match hhea Metrics.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/os2_metrics_match_hhea</div>
 
-<details><summary>🔥 T9432-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 sTypoAscender (1050) and hhea ascent (1200) must be equal. [code: ascender]</p>
+<details><summary>🔥 T9432-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 sTypoAscender (1050) and hhea ascent (2250) must be equal. [code: ascender]</p>
 </span></li></ul></div></details>
 <h3>Font has **proper** whitespace glyph names?</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/whitespace_glyphnames</div>
@@ -675,6 +671,11 @@ definitions.</p>
 - Glyph name: infinity	Contours detected: 2	Expected: 3
 </code></pre>
 <p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<h3>Checking Vertical Metric Linegaps.</h3>
+<div class='check__idlabel'>Check ID: com.google.fonts/check/linegaps</div>
+
+<details><summary>⚠️ T9432-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>hhea lineGap is not equal to 0. [code: hhea]</p>
 </span></li></ul></div></details>
 <h3>Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron)</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/alt_caron</div>
