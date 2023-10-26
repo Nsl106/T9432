@@ -2,10 +2,16 @@
 
 fontbakery version: 0.10.2
 
-<details><summary><b>[10] T9432-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[9] T9432-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
+
+	- 0x00AB (LEFT-POINTING DOUBLE ANGLE QUOTATION MARK)
+
+
+	- 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
+
 
 	- 0x0308 (COMBINING DIAERESIS)
 
@@ -556,6 +562,12 @@ fontbakery version: 0.10.2
 	- 0x201E (DOUBLE LOW-9 QUOTATION MARK)
 
 
+	- 0x2039 (SINGLE LEFT-POINTING ANGLE QUOTATION MARK)
+
+
+	- 0x203A (SINGLE RIGHT-POINTING ANGLE QUOTATION MARK)
+
+
 	- 0x00B6 (PILCROW SIGN)
 
 
@@ -645,7 +657,6 @@ fontbakery version: 0.10.2
  * U+2049 EXCLAMATION QUESTION MARK: try adding mongolian
  * U+204E LOW ASTERISK: not included in any glyphset definition
  * U+204F REVERSED SEMICOLON: try adding adlam
- * U+2051 TWO ASTERISKS ALIGNED VERTICALLY: not included in any glyphset definition
  * U+2190 LEFTWARDS ARROW: try adding one of: math, symbols
  * U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols
  * U+2213 MINUS-OR-PLUS SIGN: try adding math
@@ -662,11 +673,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-characters length limit:
-left_pointing_double_angle_quotation_mark, right_pointing_double_angle_quotation_mark, single_left_pointing_angle_quotation_mark, single_right_pointing_angle_quotation_mark and two_asterisks_aligned_vertically [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -694,10 +700,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ascii_tilde	Contours detected: 2	Expected: 1
 
-	- Glyph name: left_pointing_double_angle_quotation_mark	Contours detected: 3	Expected: 2
-
-	- Glyph name: right_pointing_double_angle_quotation_mark	Contours detected: 1	Expected: 2
-
 	- Glyph name: multiplication_sign	Contours detected: 2	Expected: 1
 
 	- Glyph name: trade_mark_sign	Contours detected: 1	Expected: 2
@@ -720,8 +722,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 3 | 7 | 126 | 8 | 110 | 0 |
-| 0% | 1% | 3% | 50% | 3% | 43% | 0% |
+| 0 | 3 | 6 | 126 | 8 | 111 | 0 |
+| 0% | 1% | 2% | 50% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
