@@ -1,5 +1,3 @@
-# T9432
-
 [![][Fontbakery]](https://Nsl106.github.io/T9432/fontbakery/fontbakery-report.html)
 [![][Universal]](https://Nsl106.github.io/T9432/fontbakery/fontbakery-report.html)
 [![][GF Profile]](https://Nsl106.github.io/T9432/fontbakery/fontbakery-report.html)
