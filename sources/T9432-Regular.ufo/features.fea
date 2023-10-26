@@ -24,8 +24,8 @@
 	\latin_small_letter_r \latin_small_letter_s \latin_small_letter_t 
 	\latin_small_letter_u \latin_small_letter_v \latin_small_letter_w 
 	\latin_small_letter_x \latin_small_letter_y \latin_small_letter_z 
-	\left_curly_brace \vertical_bar \right_curly_brace \ascii_tilde 
-	\no-break_space \inverted_exclamation_mark \cent_sign \broken_bar \diaeresis 
+	\left_curly_brace \vertical_bar \right_curly_brace \ascii_tilde \uni00A0 
+	\inverted_exclamation_mark \cent_sign \broken_bar \diaeresis 
 	\left_pointing_double_angle_quotation_mark \degree_sign \plus_minus_sign 
 	\en_dash \em_dash \left_single_quotation_mark \right_single_quotation_mark 
 	\left_double_quotation_mark \right_double_quotation_mark \acute_accent 

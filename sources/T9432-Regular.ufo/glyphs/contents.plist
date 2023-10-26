@@ -202,8 +202,8 @@
     <string>right_curly_brace.glif</string>
     <key>ascii_tilde</key>
     <string>ascii_tilde.glif</string>
-    <key>no-break_space</key>
-    <string>no-break_space.glif</string>
+    <key>uni00A0</key>
+    <string>uni00A_0.glif</string>
     <key>inverted_exclamation_mark</key>
     <string>inverted_exclamation_mark.glif</string>
     <key>cent_sign</key>
