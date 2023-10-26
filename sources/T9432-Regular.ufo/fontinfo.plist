@@ -25,7 +25,7 @@
     <key>note</key>
     <string>2023-10-25: Created with FontForge (http://fontforge.org)</string>
     <key>openTypeHeadCreated</key>
-    <string>2023/10/26 06:07:47</string>
+    <string>2023/10/26 06:21:24</string>
     <key>openTypeHheaAscender</key>
     <integer>1800</integer>
     <key>openTypeHheaDescender</key>
@@ -65,7 +65,7 @@
     <key>openTypeOS2Type</key>
     <array/>
     <key>openTypeOS2TypoAscender</key>
-    <integer>750</integer>
+    <integer>1500</integer>
     <key>openTypeOS2TypoDescender</key>
     <integer>-300</integer>
     <key>openTypeOS2TypoLineGap</key>
