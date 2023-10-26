@@ -25,19 +25,16 @@
 	\latin_small_letter_u \latin_small_letter_v \latin_small_letter_w 
 	\latin_small_letter_x \latin_small_letter_y \latin_small_letter_z 
 	\left_curly_brace \vertical_bar \right_curly_brace \ascii_tilde \uni00A0 
-	\inverted_exclamation_mark \cent_sign \broken_bar \diaeresis 
-	\left_pointing_double_angle_quotation_mark \degree_sign \plus_minus_sign 
-	\en_dash \em_dash \left_single_quotation_mark \right_single_quotation_mark 
-	\left_double_quotation_mark \right_double_quotation_mark \acute_accent 
-	\middle_dot \right_pointing_double_angle_quotation_mark 
+	\inverted_exclamation_mark \cent_sign \broken_bar \diaeresis \degree_sign 
+	\plus_minus_sign \en_dash \em_dash \left_single_quotation_mark 
+	\right_single_quotation_mark \left_double_quotation_mark 
+	\right_double_quotation_mark \acute_accent \middle_dot 
 	\inverted_question_mark \multiplication_sign \division_sign 
 	\leftwards_arrow \upwards_arrow \rightwards_arrow \downwards_arrow 
-	\smiling_face \horizontal_ellipsis \dagger \bullet 
-	\single_left_pointing_angle_quotation_mark 
-	\single_right_pointing_angle_quotation_mark \double_exclamation_mark 
+	\smiling_face \horizontal_ellipsis \dagger \bullet \double_exclamation_mark 
 	\question_exclamation_mark \exclamation_question_mark \low_asterisk 
-	\reversed_semicolon \two_asterisks_aligned_vertically \not_equal_to 
-	\minus_sign \minus_or_plus_sign \infinity \trade_mark_sign ];
+	\reversed_semicolon \not_equal_to \minus_sign \minus_or_plus_sign \infinity 
+	\trade_mark_sign ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;

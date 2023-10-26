@@ -212,8 +212,6 @@
     <string>broken_bar.glif</string>
     <key>diaeresis</key>
     <string>diaeresis.glif</string>
-    <key>left_pointing_double_angle_quotation_mark</key>
-    <string>left_pointing_double_angle_quotation_mark.glif</string>
     <key>degree_sign</key>
     <string>degree_sign.glif</string>
     <key>plus_minus_sign</key>
@@ -234,8 +232,6 @@
     <string>acute_accent.glif</string>
     <key>middle_dot</key>
     <string>middle_dot.glif</string>
-    <key>right_pointing_double_angle_quotation_mark</key>
-    <string>right_pointing_double_angle_quotation_mark.glif</string>
     <key>inverted_question_mark</key>
     <string>inverted_question_mark.glif</string>
     <key>multiplication_sign</key>
@@ -258,10 +254,6 @@
     <string>dagger.glif</string>
     <key>bullet</key>
     <string>bullet.glif</string>
-    <key>single_left_pointing_angle_quotation_mark</key>
-    <string>single_left_pointing_angle_quotation_mark.glif</string>
-    <key>single_right_pointing_angle_quotation_mark</key>
-    <string>single_right_pointing_angle_quotation_mark.glif</string>
     <key>double_exclamation_mark</key>
     <string>double_exclamation_mark.glif</string>
     <key>question_exclamation_mark</key>
@@ -272,8 +264,6 @@
     <string>low_asterisk.glif</string>
     <key>reversed_semicolon</key>
     <string>reversed_semicolon.glif</string>
-    <key>two_asterisks_aligned_vertically</key>
-    <string>two_asterisks_aligned_vertically.glif</string>
     <key>not_equal_to</key>
     <string>not_equal_to.glif</string>
     <key>minus_sign</key>
