@@ -31,8 +31,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 ## Changelog
 
 **26 October 2023. Version 1.000**
-- MAJOR Font turned to a variable font.
-- SIGNIFICANT New Stylistic sets added.
+- First version!
 
 ## License
 
