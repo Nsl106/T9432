@@ -25,13 +25,13 @@
     <key>note</key>
     <string>2023-10-25: Created with FontForge (http://fontforge.org)</string>
     <key>openTypeHeadCreated</key>
-    <string>2023/10/26 04:48:46</string>
+    <string>2023/10/26 04:53:56</string>
     <key>openTypeHheaAscender</key>
-    <integer>1200</integer>
+    <integer>2250</integer>
     <key>openTypeHheaDescender</key>
-    <integer>-300</integer>
-    <key>openTypeHheaLineGap</key>
     <integer>0</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>300</integer>
     <key>openTypeNameLicense</key>
     <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
     <key>openTypeNameLicenseURL</key>
@@ -56,7 +56,7 @@
     <key>openTypeOS2WeightClass</key>
     <integer>400</integer>
     <key>openTypeOS2VendorID</key>
-    <string>    </string>
+    <string></string>
     <key>openTypeOS2FamilyClass</key>
     <array>
       <integer>0</integer>
@@ -95,7 +95,7 @@
     <key>openTypeOS2StrikeoutPosition</key>
     <integer>349</integer>
     <key>openTypeVheaTypoLineGap</key>
-    <integer>0</integer>
+    <integer>121</integer>
     <key>postscriptFontName</key>
     <string>T9432</string>
     <key>postscriptFullName</key>

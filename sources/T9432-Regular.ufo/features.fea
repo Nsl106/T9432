@@ -1,5 +1,4 @@
 
-#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\space \exclamation_mark \quotation_mark \number_sign 
 	\dollar_sign \euro_sign \pound_sign \yen_sign \copyright_sign 
